@@ -1,0 +1,143 @@
+#detail {
+  padding: 55px 0;
+  color: white;
+  position: relative;
+
+  &:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(31.5, 31.5, 94.5, 0.8);
+    z-index: 1;
+  }
+
+  .detail-card {
+    display: flex;
+    position: relative;
+    z-index: 2;
+
+    .images {
+      box-shadow: -1px -1px 12px 9px rgb(12, 208, 12);
+      -webkit-box-shadow: -1px -1px 12px 9px rgb(211, 158, 23);
+      -moz-box-shadow: -1px -1px 12px 9px rgb(168, 53, 53);
+      margin: 0 40px;
+      width: 25%;
+      height: 25%;
+    }
+
+    .vote {
+      width: 80px;
+      height: 80px;
+      background: #f3cc22;
+      border-radius: 50%;
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 5px solid rgba(40, 91, 40, 0.8);
+    }
+  }
+
+  .actors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    bottom: -200px;
+    .slick-prev:before {
+      display: none;
+    }
+    .slick-next:before {
+      display: none;
+    }
+  }
+}
+#detailMovies{
+  .detailMovie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    .slick-prev:before {
+      display: none;
+    }
+    .slick-next:before {
+      display: none;
+    }
+  }
+}
+
+
+#detail-cast {
+  padding: 5% 0;
+.imagess{
+  width: 600px;
+}
+  .imagess-one {
+    box-shadow: -1px -1px 12px 9px rgb(12, 208, 12);
+    -webkit-box-shadow: -1px -1px 12px 9px rgb(211, 158, 23);
+    -moz-box-shadow: -1px -1px 12px 9px rgb(168, 53, 53);
+    margin: 0 40px;
+    width: 300px;
+    object-fit: cover;
+  }
+.biography{
+  width: 800px;
+}
+  .detail-cast {
+    display: flex;
+
+    &-desc {
+      margin-left: 5%;
+
+      h1 {
+
+      }
+
+    }
+  }
+}
+
+
+#movies {
+  padding: 40px 0;
+
+  .movies {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .card {
+      margin: 10px;
+      width: 17vw;
+      box-shadow: -1px -9px 15px 1px #8a92c2;
+
+      p {
+        padding: 10px 0 0 30px;
+      }
+
+      h4 {
+        padding: 10px 0 0 30px;
+      }
+
+      .lineStar {
+        padding: 10px 0 0 30px;
+        cursor: pointer;
+      }
+    }
+
+  }
+}
+
+
+.qwerty{
+  margin-bottom: 50px;
+  box-shadow: -1px -1px 12px 9px rgb(12, 23, 63);
+  -webkit-box-shadow: -1px -1px 12px 9px rgb(6, 15, 63);
+  -moz-box-shadow: -1px -1px 12px 9px rgb(168, 53, 53);
+}
